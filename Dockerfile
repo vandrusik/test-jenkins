@@ -14,7 +14,7 @@
 # scalable-resilient-web-app-solution e2e test
 #
 # VERSION 0.0.1
-FROM ipvive
+FROM google/cloud-sdk
 
 MAINTAINER Valerii Andrusyk <vandrusik@ipvive.com>
 
