@@ -1,13 +1,12 @@
 {
   "variables": {
     "git_commit": "",
-    "git_branch": "",
-    "project_id": "jen"
+    "git_branch": ""
   },
   "builders": [
     {
       "type": "googlecompute",
-      "project_id": "{{user 'project_id'}}",
+      "project_id": "jen",
       "source_image": "ubuntu-1404-trusty-v20151113",
       "zone": "us-central1-a",
       "image_name": "test—jenkins-{{timestamp}}-{{user 'git_branch'}}-{{user 'git_commit'}}"
